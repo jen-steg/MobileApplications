@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.contactsaddressbook.secondContact"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/secondContactPic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/secondContactFName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lucky" />
+
+    <TextView
+        android:id="@+id/secondContactFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/secondContactFName"
+        android:text="@string/secondContactFName"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/secondContactCityAddress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondContactPic"
+        tools:text="@string/secondContactFName" />
+
+    <TextView
+        android:id="@+id/secondContactStAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="@string/secondContactStAddress"
+        android:text="@string/secondContactStAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondContactCityAddress"
+        app:layout_constraintStart_toStartOf="@+id/secondContactFName"
+        tools:text="@string/secondContactStAddress" />
+
+    <TextView
+        android:id="@+id/secondContactCityAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/secondContactCityAddress"
+        android:text="@string/secondContactCityAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondContactPhone"
+        app:layout_constraintStart_toStartOf="@+id/secondContactStAddress"
+        app:layout_constraintTop_toBottomOf="@+id/secondContactFName"
+        tools:text="@string/secondContactCityAddress" />
+
+    <TextView
+        android:id="@+id/secondContactPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/secondContactPhone"
+        android:text="@string/secondContactPhone"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/secondContactEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondContactCityAddress"
+        tools:text="@string/secondContactPhone" />
+
+    <TextView
+        android:id="@+id/secondContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="42dp"
+        android:layout_marginStart="16dp"
+        android:contentDescription="@string/secondContactEmail"
+        android:text="@string/secondContactEmail"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondContactPhone"
+        tools:text="@string/secondContactEmail" />
+</android.support.constraint.ConstraintLayout>

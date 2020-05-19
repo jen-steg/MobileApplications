@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Contacts Address Book</string>
+    <string name="txtTitle">A</string>
+    <string name="buttonOne">A. Blackie</string>
+    <string name="buttonTwo">A. Lucky</string>
+    <string name="firstContactPic">Blackie Image</string>
+    <string name="firstContactFName">A. Blackie</string>
+    <string name="firstContactStAddress">1 Not the Dog House Blvd.</string>
+    <string name="firstContactCityAddress">Virginia Beach, VA 23454</string>
+    <string name="firstContactPhone">757-123-4567</string>
+    <string name="firstContactEmail">TheBestOldManDog@gmail.com</string>
+    <string name="secondContactPic">Lucky Image</string>
+    <string name="secondContactFName">A. Lucky</string>
+    <string name="secondContactStAddress">2 Not the Dog House Blvd.</string>
+    <string name="secondContactCityAddress">Virginia Beach, VA 23454</string>
+    <string name="secondContactPhone">757-987-6543</string>
+    <string name="secondContactEmail">TheCutestDerpyPup@gmail.com</string>
+</resources>

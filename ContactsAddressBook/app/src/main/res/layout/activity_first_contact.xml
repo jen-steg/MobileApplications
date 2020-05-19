@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.androidbootcamp.contactsaddressbook.firstContact"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/firstContactPic"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="@string/firstContactPic"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/firstContactFName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blackie" />
+
+    <TextView
+        android:id="@+id/firstContactFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/firstContactFName"
+        android:text="@string/firstContactFName"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstContactStAddress"
+        app:layout_constraintStart_toStartOf="@+id/firstContactStAddress"
+        app:layout_constraintTop_toBottomOf="@+id/firstContactPic"
+        tools:text="@string/firstContactFName" />
+
+    <TextView
+        android:id="@+id/firstContactStAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/firstContactStAddress"
+        android:text="@string/firstContactStAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstContactCityAddress"
+        app:layout_constraintStart_toStartOf="@+id/firstContactCityAddress"
+        app:layout_constraintTop_toBottomOf="@+id/firstContactFName"
+        tools:text="@string/firstContactStAddress" />
+
+    <TextView
+        android:id="@+id/firstContactCityAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:contentDescription="@string/firstContactCityAddress"
+        android:text="@string/firstContactCityAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstContactPhone"
+        app:layout_constraintStart_toStartOf="@+id/firstContactPhone"
+        app:layout_constraintTop_toBottomOf="@+id/firstContactStAddress"
+        tools:text="@string/firstContactCityAddress" />
+
+    <TextView
+        android:id="@+id/firstContactPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:contentDescription="@string/firstContactPhone"
+        android:text="@string/firstContactPhone"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/firstContactEmail"
+        app:layout_constraintStart_toStartOf="@+id/firstContactEmail"
+        app:layout_constraintTop_toBottomOf="@+id/firstContactCityAddress"
+        tools:text="@string/firstContactPhone" />
+
+    <TextView
+        android:id="@+id/firstContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="63dp"
+        android:layout_marginEnd="9dp"
+        android:contentDescription="@string/firstContactEmail"
+        android:text="@string/firstContactEmail"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstContactPhone"
+        tools:text="@string/firstContactEmail" />
+
+</android.support.constraint.ConstraintLayout>
