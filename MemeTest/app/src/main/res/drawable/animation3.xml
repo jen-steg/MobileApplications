@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/terrycrews1" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews2" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews3" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews4" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews5" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews6" android:duration="100"/>
+    <item android:drawable="@drawable/terrycrews7" android:duration="100"/>
+</animation-list>

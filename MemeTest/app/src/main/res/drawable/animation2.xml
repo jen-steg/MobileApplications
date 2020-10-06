@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:drawable="@drawable/elonmusk1" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk2" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk3" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk4" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk5" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk6" android:duration="100"/>
+    <item android:drawable="@drawable/elonmusk7" android:duration="100"/>
+</animation-list>

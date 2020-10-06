@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MemeTest</string>
+    <string name="btnEnter">ENTER THE MEME-ZONE</string>
+    <string name="imgKeanu">Picture of Keanu Reeves meme</string>
+    <string name="imgTerry">Picture of Terry Crews Meme</string>
+    <string name="imgElon">Picture of Elon Musk Meme</string>
+    <string name="txtTitle">Test Your MEME</string>
+    <string name="btnBeginner">MEME Noob</string>
+    <string name="btnIntermediate">MEME Wannabe Master</string>
+    <string name="btnExpert">MEME Master Supreme</string>
+    <string name="txtDifficultySelector">Choose Your Destiny</string>
+    <string name="btnPlay">MEME Now</string>
+    <string name="txtNameHint">Name Goes Here</string>
+    <string name="txtTitleName">New phone. Who dis?</string>
+    <string name="imgQuestion">Meme for the Question</string>
+    <string name="btnQuit">QUIT</string>
+    <string name="imgQuitality">Quit Screen Picture</string>
+    <string name="txtTitleQuitality">QUITALITY</string>
+    <string name="txtQuitality1">Git Gud Scrub</string>
+    <string name="txtQuitality2">You suck!</string>
+</resources>
